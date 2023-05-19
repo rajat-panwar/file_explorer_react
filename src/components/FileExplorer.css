@@ -1,0 +1,49 @@
+.filesContainer {
+  border: 1px solid white;
+  height: 99vh;
+  min-width: 30vw;
+}
+.listContent {
+  border: none;
+  background-color: transparent;
+  color: #ffffff;
+  vertical-align: middle;
+}
+.iconsAsButton {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+.iconsAsButton:hover {
+  border-radius: 50%;
+  background-color: #ffffff;
+  border: none;
+}
+.fileName {
+  color: #ffffff;
+}
+
+.actions {
+  display: none;
+}
+
+.listRow {
+  display: flex;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  /* border-left: 1px solid white; */
+}
+
+.listRow#level-1 {
+  border-bottom: 1px solid white;
+  padding: 5px 0;
+  margin-bottom: 10px;
+}
+
+.listRow:hover .actions {
+  display: block;
+}
+
+.listRow:hover .fileName {
+  color: #007acc;
+}
